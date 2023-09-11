@@ -1,3 +1,19 @@
+/*Implement a Queue using Linked List. 
+A Query Q is of 2 Types
+(i) 1 x   (a query of this type means  pushing 'x' into the queue)
+(ii) 2     (a query of this type means to pop an element from the queue and print the poped element)
+*/
+/*The structure of the node of the queue is
+class QueueNode
+{
+	int data;
+	QueueNode next;
+	QueueNode(int a)
+	{
+	    data = a;
+	    next = null;
+	}
+}*/
 class MyQueue
 {
     QueueNode front, rear;
